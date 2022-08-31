@@ -8,9 +8,10 @@ import { Satellite } from '../satellite';
 })
 export class OrbitCountsComponent implements OnInit {
 
-	@Input() satellites: Satellite[];
+  @Input() satellites: Satellite[];
+  @Input() satelliteTypes: string[];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
